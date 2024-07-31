@@ -23,7 +23,7 @@ Criar um arquivo chamado app.js para separar a configuração do servidor da ló
 
 1. Clone o repositório:
     ```bash
-    git clone <URL_DO_REPOSITORIO>
+    git clone <https://github.com/spryzenO/Avalia-o-Unidade-II-GQS.git>
     cd delivery-api
     ```
 
