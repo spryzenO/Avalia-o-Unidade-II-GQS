@@ -12,10 +12,6 @@ Criar um arquivo chamado app.js para separar a configuração do servidor da ló
 
 
 
-# Delivery API
-
-API para gerenciar pedidos e rotas de entrega usando Node.js e Express.
-
 ## Configuração
 
 ### Pré-requisitos
