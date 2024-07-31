@@ -45,7 +45,6 @@ describe('API Tests', () => {
     });
 
     it('GET /melhor-rota/:id - Deve retornar a melhor rota de entrega', async () => {
-        // Primeiro cria uma rota
         const newRota = {
             latitude: -23.5505,
             longitude: -46.6333
@@ -55,7 +54,6 @@ describe('API Tests', () => {
             .send(newRota);
         const rotaId = rotaRes.body.id;
 
-        // Depois cria um pedido
         const newPedido = {
             endereco: { latitude: -23.5510, longitude: -46.6340 },
             produto: 'Produto B',
